@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding-top: 50px;
+    font-family: "Raleway", sans-serif;
+}
+
+.resimslider{
+    height: 600px;
+
+}
+
+#hakkimizda{
+    background-color: #f2f2f2;
+}
+.ayrac{
+    color: black;
+    border-top: 3px solid black;
+    max-width: 250px;
+    margin: 25px auto;
+}
+.yaprak{
+    color: gray;
+    position: relative;
+    top: -55px;
+    font-size: 40px;
+    border: 10px solid #f2f2f2;
+    background-color: #f2f2f2;
+}
+.yaprak2{
+    color: gray;
+    position: relative;
+    top: -55px;
+    font-size: 40px;
+    border: 10px solid #fff;
+    background-color: #fff;
+}
+#ekibimiz img:hover{
+    opacity: 0.8;
+
+}
+#galeri{
+    background-color: #f2f2f2;
+}
+#galeri .figure img{
+    object-fit: cover;
+}
+#galeri figure:hover{
+    opacity: 0.8;
+}
+#iletisim{
+    background-color: #fff;
+}
